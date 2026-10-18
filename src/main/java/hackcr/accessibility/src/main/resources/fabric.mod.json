@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "akuseshibirichi",
+	"version": "${version}",
+	"name": "akuseshibirichi",
+	"description": "Disables dynamic FOV. No OneConfig, No Essential, No Bloatware",
+	"authors": [
+		"hackcr1258"
+	],
+	"contact": {
+		"sources": "https://github.com/hackcr1258/Akuseshibirichi"
+	},
+	"license": "GPLv3",
+	"icon": "assets/accessibility/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client-init": [
+			"hackcr.accessibility.akuseshibirichi"
+		]
+	},
+	"mixins": [
+    {
+      "config": "acessibility.mixins.json",
+      "environment": "client"
+    }
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "1.8.9",
+		"osl-entrypoints": ">=0.4.0"
+	}
+}

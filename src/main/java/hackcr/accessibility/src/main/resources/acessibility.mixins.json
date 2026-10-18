@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "hackcr.accessibility.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+  ],
+  "client": [
+    "Zooming",
+    "HidePlayerHand"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
